@@ -1,0 +1,5 @@
+# Ignore the target folder that has the output JAR which can be large
+target/
+# Exclude pattern that are often used to push stdout during debugging
+out.txt
+out?.txt
