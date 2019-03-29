@@ -1,0 +1,179 @@
+{
+	"WatsonNLP": "false",
+	"WatsonNLUVersion": "2018-03-16",
+	"WatsonKey": "9b967bcc-3074-4ba2-ae02-5e197ae977f2",
+	"WatsonPwd": "XMElVdlKc4nh",
+	"DownloadSecReturns": "false",
+	"returns": 
+	[
+		{
+		"symbol": "PFE",
+		"filings": 
+			[
+				{
+				"type": "10-K",
+				"count": "3"
+				},
+				{
+				"type": "10-Q",
+				"count": "5"
+				},
+				{
+				"type": "8-K",
+				"count": "0"
+				},
+				{
+				"type": "424B2",
+				"count": "0"
+				},
+				{
+				"type": "FWP",
+				"count": "0"
+				}
+			]
+		},
+		{
+		"symbol": "JNJ",
+		"filings": 
+			[
+				{
+				"type": "10-K",
+				"count": "3"
+				},
+				{
+				"type": "10-Q",
+				"count": "5"
+				},
+				{
+				"type": "8-K",
+				"count": "0"
+				},
+				{
+				"type": "424B2",
+				"count": "0"
+				},
+				{
+				"type": "FWP",
+				"count": "0"
+				}
+			]
+		},
+		{
+		"symbol": "MRK",
+		"filings": 
+			[
+				{
+				"type": "10-K",
+				"count": "3"
+				},
+				{
+				"type": "10-Q",
+				"count": "5"
+				},
+				{
+				"type": "8-K",
+				"count": "0"
+				},
+				{
+				"type": "424B2",
+				"count": "0"
+				},
+				{
+				"type": "FWP",
+				"count": "0"
+				}
+			]
+		},
+		{
+		"symbol": "ABBV",
+		"filings": 
+			[
+				{
+				"type": "10-K",
+				"count": "3"
+				},
+				{
+				"type": "10-Q",
+				"count": "5"
+				},
+				{
+				"type": "8-K",
+				"count": "0"
+				},
+				{
+				"type": "424B2",
+				"count": "0"
+				},
+				{
+				"type": "FWP",
+				"count": "0"
+				}
+			]
+		},
+		{
+		"symbol": "ABT",
+		"filings": 
+			[
+				{
+				"type": "10-K",
+				"count": "3"
+				},
+				{
+				"type": "10-Q",
+				"count": "5"
+				},
+				{
+				"type": "8-K",
+				"count": "0"
+				},
+				{
+				"type": "424B2",
+				"count": "0"
+				},
+				{
+				"type": "FWP",
+				"count": "0"
+				}
+			]
+		},
+		{
+		"symbol": "CELG",
+		"filings": 
+			[
+				{
+				"type": "10-K",
+				"count": "3"
+				},
+				{
+				"type": "10-Q",
+				"count": "5"
+				},
+				{
+				"type": "8-K",
+				"count": "0"
+				},
+				{
+				"type": "424B2",
+				"count": "0"
+				},
+				{
+				"type": "FWP",
+				"count": "0"
+				}
+			]
+		}
+	],
+	
+	"StanfordNLP": "false",
+	"NER": "false",
+	"pathLocalDir": "C:\\Users\\pshar\\Dropbox\\Programming\\SampleTexts\\FilingsBySymbols",
+	"purgeHtmExtension": "true",
+	"enableCataloging": "false",
+	"enableSolrIndexing": "true",
+	"mysqlServerName": "localhost",
+	"mysqlPort": "3306",
+	"mysqlDbName": "markets",
+	"mysqlUserName": "psharma",
+	"mysqlUserPwd": "$ys8dmin",
+	"dumpSQL": "true"
+}

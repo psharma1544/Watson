@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="1" name="Deploy">
+    <test name="SetupTests">
+
+        <parameter name="user" value="root"/>
+        <parameter name="password" value="pwd"/>
+        <groups>
+            <run>
+                <exclude name="broken"/>
+                <include name="infrastructure"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="com.jps.predictions.dl4j"/>
+        </packages>
+        <classes>
+		    <class name="com.jps.nlp.AppTest"/>
+		</classes>
+    </test>
+
+</suite>

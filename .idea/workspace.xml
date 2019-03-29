@@ -1,0 +1,745 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="bc9311e1-10aa-4db8-ada4-23678a43ea91" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/target/Watson-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/Watson-1.0-SNAPSHOT.jar.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jps/finserv/markets/util/DisableSSL$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jps/finserv/markets/util/DisableSSL$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jps/finserv/markets/util/DisableSSL.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jps/finserv/markets/util/HttpDeleteExecutor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jps/finserv/markets/util/HttpGetExecutor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jps/finserv/markets/util/HttpPostExecutor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jps/nlp/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jps/nlp/CatalogNLPData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jps/nlp/Configuration.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jps/nlp/HTML2Txt.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jps/nlp/HttpGetExecutor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jps/nlp/NLPI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jps/nlp/NLPTargets$File_Extensions.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jps/nlp/NLPTargets.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jps/nlp/SecEdgar.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jps/nlp/SecEdgarData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jps/nlp/SecEdgarDataImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jps/nlp/StanfordCoreNLPI.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jps/nlp/StanfordCoreNLPImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jps/nlp/Utils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jps/nlp/WatsonNLP.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jps/nlp/WatsonNLPImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jps/nlp/modOutCSV.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jps/nlp/modReadFile.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jps/predictions/dl4j/RNNEquityPricePredictor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jps/predictions/dl4j/SQLConnector.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jps/search/DataManagement.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jps/search/SolrConnectImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jps/util/Utils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jps/util/modOutCSV.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/jps/util/modReadFile.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/Deploy/SetupTests.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/Deploy/SetupTests.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/bullet_point.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/collapseall.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/failed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/jquery-1.7.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.jps.nlp.AppTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/navigator-bullet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/Deploy/SetupTests.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/Deploy/classes.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/Deploy/groups.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/Deploy/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/Deploy/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/Deploy/methods-alphabetical.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/Deploy/methods-not-run.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/Deploy/methods.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/Deploy/reporter-output.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/Deploy/testng.xml.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/Deploy/toc.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/passed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/skipped.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-reports.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-reports.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/testng.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-classes/com/jps/nlp/AppTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out_2019-02-09.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jps/nlp/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jps/nlp/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jps/nlp/Configuration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jps/nlp/Configuration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jps/nlp/HTML2Txt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jps/nlp/HTML2Txt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jps/nlp/NLPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jps/nlp/NLPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jps/nlp/NLPTargets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jps/nlp/NLPTargets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jps/nlp/SecEdgar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jps/nlp/SecEdgar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jps/nlp/SecEdgarDataImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jps/nlp/SecEdgarDataImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jps/nlp/StanfordCoreNLPImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jps/nlp/StanfordCoreNLPImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jps/nlp/WatsonNLPImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jps/nlp/WatsonNLPImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jps/search/DataManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jps/search/DataManagement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jps/search/SolrConnectImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jps/search/SolrConnectImpl.java" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-320769859">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.119" value="1" />
+          <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.22" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.32" value="1" />
+          <entry key="project.open.time.53" value="2" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.96" value="1" />
+          <entry key="project.opened" value="13" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="284" />
+          <entry key="xml" value="4" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="3" />
+          <entry key="JAVA" value="1080" />
+          <entry key="Scala" value="9" />
+          <entry key="XML" value="34" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="8" />
+          <entry key="java" value="7473" />
+          <entry key="txt" value="29" />
+          <entry key="xml" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="23643" />
+          <entry key="PLAIN_TEXT" value="37" />
+          <entry key="XML" value="139" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Watson" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jps/nlp/WatsonNLPImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2657">
+              <caret line="25" column="72" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="72" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>jaunt</find>
+      <find>||</find>
+      <find>annFileName</find>
+      <find>rs</find>
+      <find>test</find>
+      <find>&lt;repository</find>
+      <find>pathLocalDir</find>
+      <find>PATH_LOCAL_DIR_FILES</find>
+      <find>addFileBasedOnExtension</find>
+      <find>8983</find>
+      <find>listFiles</find>
+      <find>run</find>
+      <find>SecEdgarDataImpl</find>
+      <find>retrieveAndValidateLocalFilesWithMetadata</find>
+      <find>could not</find>
+      <find>,</find>
+      <find>configuration</find>
+      <find>retrieveLinks</find>
+      <find>BASE_NLP_DIR_PATH</find>
+      <find>processTgt</find>
+      <find>processTgtList</find>
+      <find>10-k</find>
+      <find>urlFilingTypeEdgar</find>
+      <find>&lt;p</find>
+      <find>text</find>
+      <find>html2</find>
+      <find>queryCheckFileIndexed</find>
+      <find>market</find>
+      <find>getSolr</find>
+      <find>markets</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>//</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/jps/nlp/CoreNLPI.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jps/nlp/StanfordCoreNLPI.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jps/nlp/WatsonNLP.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jps/nlp/SecEdgarData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jps/nlp/Utils.java" />
+        <option value="$PROJECT_DIR$/src/main/scala/Pipeline.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jps/nlp/modOutCSV.kt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jps/nlp/modOutCSV.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jps/util/modOutCSV.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jps/util/Utils.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jps/predictions/dl4j/SQLConnector.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jps/predictions/dl4j/RNNEquityPricePredictor.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jps/search/SolrConnectImp.java" />
+        <option value="$PROJECT_DIR$/testng.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/jps/nlp/AppTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jps/util/modReadFile.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jps/nlp/NLPI.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jps/nlp/WatsonNLPImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jps/nlp/App.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jps/nlp/HTML2Txt.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jps/nlp/SecEdgar.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jps/nlp/Configuration.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jps/nlp/NLPTargets.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jps/nlp/StanfordCoreNLPImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jps/nlp/SecEdgarDataImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jps/search/SolrConnectImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jps/search/DataManagement.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Watson" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Watson" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Watson" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Watson" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Run Configurations" type="21c1f71a:MavenProjectsStructure$RunConfigurationsNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="width" value="1920" />
+    <option name="height" value="1080" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Watson" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Watson" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Watson" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Watson" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Watson" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Watson" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Watson" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Watson" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Watson" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Watson" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Watson" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Watson" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="jps" type="462c0819:PsiDirectoryNode" />
+              <item name="nlp" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Watson" type="58d84e3e:PackageViewProjectNode" />
+              <item name="Watson" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="Watson" type="58d84e3e:PackageViewProjectNode" />
+              <item name="Watson" type="616d4139:PackageViewModuleNode" />
+              <item name="com.jps" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="Watson" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Watson" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="full.screen.before.presentation.mode" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Z-Finance/External/catalogic/ecx/backend/pom.xml" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\pshar\Dropbox\workspace\Watson\src\main" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.jps.nlp" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\pshar\Dropbox\workspace\Watson\src\main\java" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Watson [exec:java] (1)" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="exec:java" />
+                <option value="-Dexec.args=C:\Users\pshar\Dropbox\Z-Rerrac\PXS\JSearch\Companies\Eigen\test-docs\Originals" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bc9311e1-10aa-4db8-ada4-23678a43ea91" name="Default Changelist" comment="" />
+      <created>1542216783439</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1542216783439</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1536" height="864" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Designer" order="0" />
+      <window_info id="UI Designer" order="1" />
+      <window_info id="Favorites" order="2" sideWeight="0.5036855" side_tool="true" weight="0.19921875" />
+      <window_info active="true" content_ui="combo" id="Project" order="3" sideWeight="0.4963145" visible="true" weight="0.18229167" />
+      <window_info id="Structure" order="4" sideWeight="0.5011574" side_tool="true" weight="0.15755208" />
+      <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" x="1078" y="67" width="417" height="845" id="Terminal" order="1" sideWeight="0.50130206" side_tool="true" weight="1.0" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="3" />
+      <window_info anchor="bottom" id="Find" order="4" />
+      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.4986979" weight="0.587963" />
+      <window_info anchor="bottom" id="Debug" order="6" sideWeight="0.4986979" weight="0.7303241" />
+      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="9" weight="0.3298611" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Palette&#9;" order="1" />
+      <window_info anchor="right" id="Maven Projects" order="2" weight="0.18164062" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="3" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="4" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="5" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Designer" order="0" />
+      <window_info id="UI Designer" order="1" />
+      <window_info id="Favorites" order="2" sideWeight="0.5036855" side_tool="true" weight="0.19921875" />
+      <window_info content_ui="combo" id="Project" order="3" sideWeight="0.4963145" visible="true" weight="0.18255034" />
+      <window_info id="Structure" order="4" sideWeight="0.5011574" side_tool="true" weight="0.15755208" />
+      <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" x="1078" y="67" width="417" height="845" id="Terminal" order="1" sideWeight="0.5019531" side_tool="true" weight="0.587963" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="3" />
+      <window_info anchor="bottom" id="Find" order="4" />
+      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.49804688" weight="0.587963" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.7311198" />
+      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="9" weight="0.3298611" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Palette&#9;" order="1" />
+      <window_info anchor="right" id="Maven Projects" order="2" weight="0.18164062" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="3" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="4" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="5" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jps/nlp/modReadFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="126" column="30" lean-forward="true" selection-start-line="126" selection-start-column="30" selection-end-line="126" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="747">
+          <caret line="3168" lean-forward="true" selection-start-line="3168" selection-end-line="3168" />
+          <folding>
+            <element signature="e#70749#70750#0" expanded="true" />
+            <element signature="e#70802#70803#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jps/nlp/HttpGetExecutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/TextProcessor.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/CleanTrivialWords.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/TokenizerExample.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/CleanTrivialWords2.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Word2VecExample.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/App.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/scala/Pipeline.scala" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jps/nlp/modOutCSV.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="19" column="17" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/guava/guava/20.0/guava-20.0.jar!/com/google/common/base/Preconditions.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1">
+          <caret line="61" selection-start-line="61" selection-end-line="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jps/predictions/dl4j/SQLConnector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="117" column="7" lean-forward="true" selection-start-line="117" selection-start-column="7" selection-end-line="117" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jps/predictions/dl4j/RNNEquityPricePredictor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="48" column="6" lean-forward="true" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jps/nlp/CatalogNLPData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="262" column="34" lean-forward="true" selection-start-line="262" selection-start-column="34" selection-end-line="262" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/jps/nlp/AppTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1003">
+          <caret line="59" column="49" selection-start-line="59" selection-start-column="49" selection-end-line="59" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testng.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/jre/lib/rt.jar!/sun/reflect/DelegatingMethodAccessorImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jps/util/modOutCSV.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="21" lean-forward="true" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="454">
+          <caret line="151" column="69" selection-start-line="151" selection-start-column="69" selection-end-line="151" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jps/util/modReadFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jps/nlp/WatsonNLP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jps/nlp/StanfordCoreNLPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jps/nlp/NLPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="72" selection-start-line="22" selection-start-column="72" selection-end-line="22" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jps/nlp/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="55" column="47" selection-start-line="55" selection-start-column="47" selection-end-line="55" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jps/nlp/Configuration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jps/nlp/NLPTargets.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="216" column="32" selection-start-line="216" selection-start-column="25" selection-end-line="216" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jps/nlp/HTML2Txt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="19" column="13" lean-forward="true" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jps/nlp/SecEdgar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jps/util/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="85" column="71" lean-forward="true" selection-start-line="85" selection-start-column="26" selection-end-line="85" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jps/nlp/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="137" column="45" selection-start-line="137" selection-start-column="45" selection-end-line="137" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jps/search/SolrConnectImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="37" column="56" selection-start-line="37" selection-start-column="49" selection-end-line="37" selection-end-column="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jps/nlp/SecEdgarData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jps/search/DataManagement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="622">
+          <caret line="76" column="60" lean-forward="true" selection-start-line="76" selection-start-column="60" selection-end-line="76" selection-end-column="60" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jps/nlp/SecEdgarDataImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1053">
+          <caret line="289" column="94" lean-forward="true" selection-start-line="289" selection-start-column="94" selection-end-line="289" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jps/nlp/StanfordCoreNLPImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2922">
+          <caret line="200" column="54" lean-forward="true" selection-start-line="200" selection-start-column="54" selection-end-line="200" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jps/nlp/WatsonNLPImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2657">
+          <caret line="25" column="72" lean-forward="true" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="" />
+  </component>
+</project>
