@@ -7,7 +7,7 @@
 	"returns": 
 	[
 		{
-		"symbol": "PFE",
+		"symbol": "GM",
 		"filings": 
 			[
 				{
@@ -33,7 +33,7 @@
 			]
 		},
 		{
-		"symbol": "JNJ",
+		"symbol": "F",
 		"filings": 
 			[
 				{
@@ -59,7 +59,7 @@
 			]
 		},
 		{
-		"symbol": "MRK",
+		"symbol": "TSLA",
 		"filings": 
 			[
 				{
@@ -90,11 +90,11 @@
 			[
 				{
 				"type": "10-K",
-				"count": "3"
+				"count": "0"
 				},
 				{
 				"type": "10-Q",
-				"count": "5"
+				"count": "0"
 				},
 				{
 				"type": "8-K",
@@ -116,11 +116,11 @@
 			[
 				{
 				"type": "10-K",
-				"count": "3"
+				"count": "0"
 				},
 				{
 				"type": "10-Q",
-				"count": "5"
+				"count": "0"
 				},
 				{
 				"type": "8-K",
@@ -142,11 +142,11 @@
 			[
 				{
 				"type": "10-K",
-				"count": "3"
+				"count": "0"
 				},
 				{
 				"type": "10-Q",
-				"count": "5"
+				"count": "0"
 				},
 				{
 				"type": "8-K",
@@ -166,7 +166,7 @@
 	
 	"StanfordNLP": "false",
 	"NER": "false",
-	"pathLocalDir": "C:\\Users\\pshar\\Dropbox\\Programming\\SampleTexts\\FilingsBySymbols",
+	"pathLocalDir": "C:\\Users\\pshar\\Dropbox\\WebServices\\mysite\\polls\\templates\\polls\\FilingsBySymbols",
 	"purgeHtmExtension": "true",
 	"enableCataloging": "false",
 	"enableSolrIndexing": "true",
@@ -175,5 +175,5 @@
 	"mysqlDbName": "markets",
 	"mysqlUserName": "psharma",
 	"mysqlUserPwd": "$ys8dmin",
-	"dumpSQL": "true"
+	"dumpSQL": "false"
 }

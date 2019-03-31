@@ -17,7 +17,8 @@ class SecEdgarDataImpl implements SecEdgarData {
 
     private final Logger logger = LoggerFactory.getLogger(SecEdgarDataImpl.class);
     private final String baseEdgarUrl = "https://www.sec.gov/edgar/searchedgar/companysearch.html";
-    private final String BASE_SYMBOLS_DIR_PATH = "C:\\Users\\pshar\\Dropbox\\Programming\\SampleTexts\\FilingsBySymbols";
+    private final String BASE_SYMBOLS_DIR_PATH = "C:\\Users\\pshar\\Dropbox\\WebServices\\mysite\\polls\\templates\\polls\\FilingsBySymbols";
+            //"C:\\Users\\pshar\\Dropbox\\Programming\\SampleTexts\\FilingsBySymbols";
 
     private final HTML2Txt html2Txt = new HTML2Txt();
 

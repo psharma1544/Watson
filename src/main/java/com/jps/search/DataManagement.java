@@ -32,7 +32,7 @@ public class DataManagement {
 
             if (ENABLE_INDEXING) {
                 indexSentencesData(client);
-                //indexAnnotationsData(client);
+                indexAnnotationsData(client);
             }
             long maxCount = 200; // Num of search results to be shown
             String patternFileNames = "*.*";
@@ -51,8 +51,7 @@ public class DataManagement {
      * @throws SolrServerException
      */
     private void indexAnnotationsData(HttpSolrClient client) throws IOException, SolrServerException {
-        String patternTgtFiles = "^(Annotations)\\w*.\\w*";
-
+        String patternTgtFiles = "^(Annotations_)[\\w-]*.\\w*";
         List<String> fields = new LinkedList<>();
         fields.add(0, "symbol");
         fields.add(1, "filing");
@@ -74,7 +73,7 @@ public class DataManagement {
      */
     private void indexSentencesData(HttpSolrClient client) throws IOException, SolrServerException {
         //String patternTgtFiles = "^(Sentences)\\w*.\\w*";
-        String patternTgtFiles = "^(Sentences)[\\w-]*.\\w*";
+        String patternTgtFiles = "^(Sentences_)[\\w-]*.\\w*";
 
         List<String> fields = new LinkedList<>();
         fields.add(0, "symbol");
@@ -84,7 +83,6 @@ public class DataManagement {
         fields.add(4, "filePath");
         fields.add(5, "sentence");
         fields.add(6, "sentHash");
-
 
         solr.indexCsvByRow(client, TGT_DIRECTORY, patternTgtFiles, fields);
     }
@@ -102,5 +100,4 @@ public class DataManagement {
 
         solr.indexCsvByRow(client, TGT_DIRECTORY, patternTgtFiles, fields);
     }
-
 }
