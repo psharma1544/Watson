@@ -17,7 +17,9 @@ import java.io.*;
 import java.util.*;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
+import java.util.stream.Collectors;
 
+import static java.util.stream.Collectors.toCollection;
 import static org.apache.commons.io.FileUtils.getFile;
 
 public class SolrConnectImpl {
@@ -62,7 +64,7 @@ public class SolrConnectImpl {
      * @throws IOException
      * @throws SolrServerException
      */
-    public void indexCsvByRow(HttpSolrClient client, String dirPath, String patternTgtFiles, List<String> fields) throws IOException, SolrServerException {
+    public void indexCsvByRow(HttpSolrClient client, String dirPath, String patternTgtFiles, List<String> origFields) throws IOException, SolrServerException {
 
         File dir = new File(dirPath);
         if (dirPath == "")
@@ -114,18 +116,58 @@ public class SolrConnectImpl {
                 //logger.debug("The size of the returned list is:" + inputList.size());
 
                 for (String line : inputList) {
+                    List<String> fields = new LinkedList<>();
+                    // Must preserve the order while copying contents from origFields argument
+                    fields = origFields.stream().collect(toCollection(LinkedList::new));
+
                     String[] temp = line.split(",");
                     int[] count = {0};
                     SolrInputDocument doc = new SolrInputDocument();
                     doc.addField("id", UUID.randomUUID().toString());
+
+                    int cntTokens = 0;
+                    try {
+                        // TODO: Find a better solution to get the word count from CSV row and avoid hard-coding.
+                        // The count of words is in 7th value in CSV.
+                        cntTokens = Integer.parseInt(temp[7]);
+                    }
+                    catch (NullPointerException | NumberFormatException e) {
+                        logger.error("Exception {} while reading word-counts in line {} in file {}", e.getMessage(), line, file.getName());
+                        e.printStackTrace();
+                    }
+
+                    /*
+                        Append items to input fields based on dynamic count of words in each sentence.
+                        For each word, there are N number of entries. Extend the Solr doc field input
+                        dynamically based on word count.
+                     */
+                    for (int token = 0; token < cntTokens; token ++){
+                        // TODO: another hard-coding in terms of num of expected lemma values for each word.
+                        int numLemmas = 4; // Word itself, root lemma, PoS, and NER.
+                        int offset = fields.size();
+
+                        fields.add(offset, "word");
+                        fields.add(offset+1, "lemma");
+                        fields.add(offset+2, "pos");
+                        fields.add(offset+3, "ner");
+                        /*
+                            As more fields get added in input CSV, add them here, and finally
+                            add them in Solr index schema as well. Also will need to specify
+                            whether those fields need to support mult-values etc...
+                         */
+                    }
+
                     fields.forEach(field -> {
                         try {
-                            doc.addField(field, temp[count[0]++]);
+                            if (!(temp[count[0]].equals("")))
+                                doc.addField(field, temp[count[0]++]);
                         } catch (ArrayIndexOutOfBoundsException e) {
                             logger.error("Exception {} while processing line {} in file {}", e.getMessage(), line, file.getName());
                             e.printStackTrace();
                         }
                     });
+
+
                     docs.add(doc);
                 }
                 client.add(docs);

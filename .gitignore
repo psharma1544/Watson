@@ -3,3 +3,5 @@ target/
 # Exclude pattern that are often used to push stdout during debugging
 out.txt
 out?.txt
+Solr_Schema?.txt
+config.json

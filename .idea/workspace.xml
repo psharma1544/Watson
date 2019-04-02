@@ -4,8 +4,9 @@
     <list default="true" id="bc9311e1-10aa-4db8-ada4-23678a43ea91" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/jps/nlp/SecEdgarDataImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jps/nlp/SecEdgarDataImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/jps/search/DataManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jps/search/DataManagement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/jps/search/SolrConnectImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/jps/search/SolrConnectImpl.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,12 +26,13 @@
           <entry key="project.open.time.14" value="1" />
           <entry key="project.open.time.22" value="1" />
           <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.31" value="1" />
           <entry key="project.open.time.32" value="1" />
           <entry key="project.open.time.53" value="2" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.96" value="1" />
-          <entry key="project.opened" value="13" />
+          <entry key="project.opened" value="14" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -42,7 +44,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="3" />
-          <entry key="JAVA" value="1093" />
+          <entry key="JAVA" value="1139" />
           <entry key="Scala" value="9" />
           <entry key="XML" value="34" />
         </counts>
@@ -57,7 +59,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="23690" />
+          <entry key="JAVA" value="25383" />
           <entry key="PLAIN_TEXT" value="37" />
           <entry key="XML" value="139" />
         </counts>
@@ -70,10 +72,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/jps/search/DataManagement.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/jps/search/SolrConnectImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="52" selection-start-line="52" selection-end-line="52" />
+            <state relative-caret-position="608">
+              <caret line="162" column="67" selection-start-line="162" selection-start-column="67" selection-end-line="162" selection-end-column="67" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -93,7 +95,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>jaunt</find>
       <find>||</find>
       <find>annFileName</find>
       <find>rs</find>
@@ -123,6 +124,7 @@
       <find>market</find>
       <find>getSolr</find>
       <find>markets</find>
+      <find>origFields</find>
     </findStrings>
     <replaceStrings>
       <replace>//</replace>
@@ -159,9 +161,9 @@
         <option value="$PROJECT_DIR$/src/main/java/com/jps/nlp/Configuration.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jps/nlp/NLPTargets.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jps/nlp/StanfordCoreNLPImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/jps/search/SolrConnectImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jps/nlp/SecEdgarDataImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/jps/search/DataManagement.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/jps/search/SolrConnectImpl.java" />
       </list>
     </option>
   </component>
@@ -263,6 +265,17 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="Watson" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="Watson" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="PackagesPane">
         <subPane>
           <expand>
@@ -274,17 +287,6 @@
               <item name="Watson" type="58d84e3e:PackageViewProjectNode" />
               <item name="Watson" type="616d4139:PackageViewModuleNode" />
               <item name="com.jps" type="1f31426a:PackageElementNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
-            <path>
-              <item name="Watson" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="Watson" type="2674bda8:ScopeViewTreeModel$GroupNode" />
             </path>
           </expand>
           <select />
@@ -377,18 +379,18 @@
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Favorites" order="2" sideWeight="0.5036855" side_tool="true" weight="0.19921875" />
-      <window_info active="true" content_ui="combo" id="Project" order="3" sideWeight="0.4963145" visible="true" weight="0.18229167" />
+      <window_info content_ui="combo" id="Project" order="3" sideWeight="0.4963145" weight="0.18229167" />
       <window_info id="Structure" order="4" sideWeight="0.5011574" side_tool="true" weight="0.15755208" />
+      <window_info active="true" id="Debug" order="5" sideWeight="0.4986979" visible="true" weight="0.2721354" />
       <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" x="1078" y="67" width="417" height="845" id="Terminal" order="1" sideWeight="0.50130206" side_tool="true" weight="1.0" />
       <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" />
       <window_info anchor="bottom" id="Run" order="5" sideWeight="0.4986979" weight="0.587963" />
-      <window_info anchor="bottom" id="Debug" order="6" sideWeight="0.4986979" weight="0.7303241" />
-      <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="9" weight="0.3298611" />
+      <window_info anchor="bottom" id="Cvs" order="6" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="8" weight="0.3298611" />
       <window_info anchor="right" id="Palette" order="0" />
       <window_info anchor="right" id="Palette&#9;" order="1" />
       <window_info anchor="right" id="Maven Projects" order="2" weight="0.18164062" />
@@ -422,6 +424,24 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jps/search/SolrConnectImpl.java</url>
+          <line>164</line>
+          <properties />
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/jps/search/SolrConnectImpl.java</url>
+          <line>159</line>
+          <properties />
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/jps/nlp/modReadFile.java">
@@ -634,20 +654,27 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jps/search/SolrConnectImpl.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_152/src.zip!/java/io/FileOutputStream.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="81" lean-forward="true" selection-start-line="81" selection-end-line="81" />
+        <state relative-caret-position="165">
+          <caret line="301" column="24" selection-start-line="301" selection-start-column="24" selection-end-line="301" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jps/search/DataManagement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="695">
+          <caret line="91" column="23" lean-forward="true" selection-start-line="91" selection-start-column="23" selection-end-line="91" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/jps/search/DataManagement.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/jps/search/SolrConnectImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
+        <state relative-caret-position="608">
+          <caret line="162" column="67" selection-start-line="162" selection-start-column="67" selection-end-line="162" selection-end-column="67" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -32,7 +32,13 @@ public class DataManagement {
 
             if (ENABLE_INDEXING) {
                 indexSentencesData(client);
-                indexAnnotationsData(client);
+
+                /*
+                    Keep annotations disabled now. The annotations metadata for words is now part of sentence
+                    metadata. Indexing them separately was causing IDs for a sentence and words in that snetnece
+                    to be different, and they couldnt be grouped in search results.
+                 */
+                //indexAnnotationsData(client);
             }
             long maxCount = 200; // Num of search results to be shown
             String patternFileNames = "*.*";
@@ -83,6 +89,7 @@ public class DataManagement {
         fields.add(4, "filePath");
         fields.add(5, "sentence");
         fields.add(6, "sentHash");
+        fields.add(7, "wordCount");
 
         solr.indexCsvByRow(client, TGT_DIRECTORY, patternTgtFiles, fields);
     }

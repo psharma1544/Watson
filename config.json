@@ -7,7 +7,7 @@
 	"returns": 
 	[
 		{
-		"symbol": "GM",
+		"symbol": "WMT",
 		"filings": 
 			[
 				{
@@ -33,7 +33,7 @@
 			]
 		},
 		{
-		"symbol": "F",
+		"symbol": "INTC",
 		"filings": 
 			[
 				{
@@ -59,7 +59,7 @@
 			]
 		},
 		{
-		"symbol": "TSLA",
+		"symbol": "GE",
 		"filings": 
 			[
 				{
